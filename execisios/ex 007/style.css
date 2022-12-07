@@ -1,0 +1,27 @@
+.a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+}
+.escondido > p.escon{
+    display: none;
+}
+.escondido:hover > p.escon{
+    display: block;
+
+}
+.escondido{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: yellow;
+    
+}
+.escondido:hover{
+    background-color: aqua;
+}

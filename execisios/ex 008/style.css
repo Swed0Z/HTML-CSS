@@ -1,0 +1,44 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: bisque;
+}
+header{
+    background-color: aquamarine;
+}
+nav{
+    background-color: gray;
+}
+nav > a{
+    text-decoration: none;
+    padding: 20px;
+}
+nav > a:hover{
+    color: brown;
+}
+main{
+    background-color: rgb(95, 255, 130);
+    margin: auto;
+    padding: 20px;
+}
+section > article{
+    background-color: gray;
+    margin: auto;
+    box-shadow: 3px 3px black;
+}
+footer{
+    background-color: blueviolet;
+    height: 30px;
+    text-align: left;
+}
+footer > p{
+    padding: 5px;
+}
+section{
+    background-color: gold;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px black;
+}
+section > h2{
+    margin: 5px 0 10px 0;
+}
