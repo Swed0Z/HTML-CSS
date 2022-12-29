@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .a{
     display: inline-block;
     width: 100px;
@@ -24,4 +28,7 @@
 }
 .escondido:hover{
     background-color: aqua;
+}
+p{
+   text-align: center;
 }

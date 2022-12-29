@@ -14,3 +14,15 @@ td,th{
 table.grande{
     width: 600px;
 }
+.Nomes {
+    background-color: aqua;
+}
+.Grupo{
+    background-color: brown;
+}
+.Filmes{
+    background-color: blueviolet;
+}
+div#container{
+    overflow-x: auto;
+}
