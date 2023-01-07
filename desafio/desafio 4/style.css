@@ -1,8 +1,19 @@
-div.Espaço{
-    background-image:url(astronauta.png), url(espaco.jpg) ;
-    position: relative;
-    width: 99vw;
-    height: 97vh;
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 100vw;
+    height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
+}
+div.Espaço{
+    background:url(espaco.jpg);
+    position: absolute;
+    background-size: cover;
+}
+div.Astronauta{
+    background-image: url(astronauta.png);
+    position: relative;
 }
