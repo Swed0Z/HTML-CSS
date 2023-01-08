@@ -10,14 +10,17 @@
 <body>
     <h1>Formulário</h1>
     <form action="Login.js" autocomplete="off" method="post">
-        <p><label for="email">E-mail</E-mail></label>
-            <input type="email" name="email" id="email" required placeholder="email">
-        </p>
-        <p><label for="password">Senha</label>
-            <input type="password" name="password" id="password" required minlength="8" placeholder="senha">
-        </p>
-        <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
-        
+        <fieldset>
+            <legend>Login</legend>
+            <p><label for="email">E-mail</E-mail></label>
+                <input type="email" name="email" id="email" required placeholder="email">
+            </p>
+            <p><label for="password">Senha</label>
+                <input type="password" name="password" id="password" required minlength="8" placeholder="senha">
+            </p>
+            <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+            
+        </fieldset>
     </form>
 </body>
 </html>
