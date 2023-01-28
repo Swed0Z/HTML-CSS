@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orientação de tela</title>
+    <style>
+    /*da pra fazer com o aquivo style também, só copiar e colar quefunciona*/
+        *{
+            margin: 0;
+            padding: 0;
+}
+        html,body{
+            background-color: #233eff;
+            width: 100vw;
+            height: 100vh;
+            background-size: contain;
+            background-repeat: no-repeat;
+}
+    @media screen and (orientation: portrait) {
+        body{
+    background-image: url(./img/cev-portrait.jpg);
+    background-position: center bottom;
+}
+    }
+    @media screen and (orientation: landscape) {
+        body{
+    background-image: url(./img/cev-landscape.jpg);
+    background-position: left bottom;
+}
+    }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
