@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 1rem;
+    background-color: gray;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+}
+ul li:last-child{
+    background-color: aqua;
+    padding: 5px;
+}
