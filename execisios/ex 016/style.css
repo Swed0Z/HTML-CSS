@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+aside{
+    background-color: lightblue;
+    flex-basis: 25%;
+}
+main{
+    background-color: lightcyan;
+    flex: 1;
+}
